@@ -19,19 +19,19 @@
         },
         "CosmosLocation": {
             "type": "string",
-            "defaultValue": "eastus"
+            "defaultValue": "eastasia"
         },
         "CosmosLocationName": {
             "type": "string",
-            "defaultValue": "East US"
+            "defaultValue": "East Asia"
         },
         "CosmosPairedLocation": {
             "type": "string",
-            "defaultValue": "westus"
+            "defaultValue": "southeastasia"
         },
         "CosmosPairedLocationName": {
             "type": "string",
-            "defaultValue": "West US"
+            "defaultValue": "Southeast Asia"
         },
         "guid": {
             "type": "string",
@@ -96,18 +96,18 @@
         "diagnosticsStorageAccountTypeLinux": "Standard_LRS",
         "diagnosticsStorageAccountKindLinux": "Storage",
         "virtualMachineNameLinux": "[concat('fabmedical-', parameters('Suffix'))]",
-        "virtualMachineSizeLinux": "Standard_D2s_v3",
+        "virtualMachineSizeLinux": "Standard_D2_v4",
         "virtualMachineOsDiskTypeLinux": "StandardSSD_LRS",
         "registryName": "[concat('fabmedical', parameters('Suffix'))]",
         "registrySku": "Standard",
         "registryAdminUserEnabled": true,
         "kubernetesClusterName": "[concat('fabmedical-', parameters('Suffix'))]",
-        "kubernetesVersion": "1.19.7",
+        "kubernetesVersion": "1.24.6",
         "kubernetesDnsPrefix": "[concat('fabmedical-', parameters('Suffix'), '-dns')]",
         "kubernetesAgentOsType": "Linux",
         "kubernetesAgentOsDiskSizeGB": 0,
         "kubernetesAgentCount": 2,
-        "kubernetesAgentVmSize": "Standard_D2_v2",
+        "kubernetesAgentVmSize": "Standard_D2_v4",
         "kubernetesNetworkProfilePlugin": "kubenet",
         "kubernetesRBACEnabled": true,
         "logAnalyticsName": "[concat('fabmed-', parameters('Suffix'),uniqueString(resourceGroup().id))]",

@@ -3,25 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Suffix": {
-            "value": "SUF"
+            "value": "teo"
         },
         "VirtualMachineAdminUsernameLinux": {
             "value": "adminfabmedical"
         },
         "VirtualMachineAdminPublicKeyLinux": {
-            "value": "ssh-rsa AAAAB3N(...)vPiybQV admin@fabmedical"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgqTySSP9pI+xtkoo3ZN3StvBgYlNLyfQvenkDSAse1isqCWvr4ORw1zyiYHmxG3IdyNpd+QabzES7YdRxO3DaPJ+WxnTgjyUl9qIo09jP5pvI9k824iEgDqnXeAJZvg+WJqUHe/pdyh/un4qnMnJddq4c/wR03IfdhP7BAhbIV2ww2+H2/45WecN/wvZLmMAx9OfP4Ev/XHTuD85sYbc6y+UPb5VVpcV14XXUIcF1+g35t6/jSr5eYI/MJHiOXes8wjy0gp2HlRJIMBiGWeBb8rWksqe9gM0/523qek3zJ+g51b4gTg15aOIelZPzy91zEl+DMdtblpnPyhbP72pr admin@fabmedical"
         },
         "CosmosLocation": {
-            "value": "location"
+            "value": "eastasia"
         },
         "CosmosLocationName": {
-            "value": "Location Name"
+            "value": "East Asia"
         },
         "CosmosPairedLocation": {
-            "value": "pairedlocation"
+            "value": "southeastasia"
         },
         "CosmosPairedLocationName": {
-            "value": "Paired Location Name"
+            "value": "Southeast Asia"
         }
     }
 }
