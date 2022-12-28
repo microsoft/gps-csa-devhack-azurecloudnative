@@ -36,14 +36,34 @@ Fabrikam医疗会议提供会议网站服务，专为医疗界量身定做。他
 这个动手实验旨在引导您完成构建和部署 Docker 镜像到 Azure Kubernetes 服务 （AKS） 托管的 Kubernetes 平台的过程，此外还学习如何处理动态服务发现、服务扩展和高可用性。
 
 在此实验结束时，您将能够更好地构建和部署容器化应用程序到 Azure Kubernetes 服务，并执行常见的 DevOps 程序。
-
 ## Azure服务及动手实验涉及第三方相关服务
 
--   Azure Kubernetes 服务 （AKS）
+-   Azure Kubernetes Service （AKS）
 -   Azure容器注册表
 -   GitHub/Gitee
 -   Dockerfile
 -   Cosmos DB数据库（包括MongoDB API）
+
+  &emsp;
+  &emsp;
+
+- [云原生应用 -动手实验前的准备](MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%8A%A8%E6%89%8B%E5%AE%9E%E9%AA%8C%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87.md)
+  
+- [云原生应用 -开发者版本实验](MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md)
+  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-1-create-and-run-a-docker-application">练习1：创建并运行Docker应用程序</a>
+  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-2-migrate-mongodb-to-cosmos-db-using-azure-database-migration-service">练习2：使用Azure数据库迁移服务将MongoDB迁移到Cosmos DB</a>
+  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-3-deploy-the-solution-to-azure-kubernetes-service">练习3：将解决方案部署到Azure Kubernetes服务</a>
+  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-4-scale-the-application-and-test-ha">练习4：扩展应用程序并测试HA</a>
+  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-5-working-with-services-and-routing-application-traffic">练习5：使用服务和路由应用程序流量</a>
+  
+- [白板设计](MCW-Cloud-native-applications/Whiteboard%20design%20session)
+  * [学生指南](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E5%AD%A6%E7%94%9F%E6%8C%87%E5%8D%97.md)
+  * [讲师指南](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E8%AE%B2%E5%B8%88%E6%8C%87%E5%8D%97.md)	
+  * [讲师胶片](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E8%AE%B2%E5%B8%88presentation.pptx)	
+  &emsp;
+  &emsp;
+  &emsp;
+
 
 ## Azure解决方案
 
@@ -64,23 +84,6 @@ Fabrikam医疗会议提供会议网站服务，专为医疗界量身定做。他
 -   不要提交拉取请求。我们的内容作者将进行所有更改并提交拉力请求以供批准。
 
 
-
-- [云原生应用 -动手实验前的准备](MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%8A%A8%E6%89%8B%E5%AE%9E%E9%AA%8C%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87.md)
-  
-- [云原生应用 -开发者版本实验](MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md)
-  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-1-create-and-run-a-docker-application">练习1：创建并运行Docker应用程序</a>
-  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-2-migrate-mongodb-to-cosmos-db-using-azure-database-migration-service">练习2：使用Azure数据库迁移服务将MongoDB迁移到Cosmos DB</a>
-  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-3-deploy-the-solution-to-azure-kubernetes-service">练习3：将解决方案部署到Azure Kubernetes服务</a>
-  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-4-scale-the-application-and-test-ha">练习4：扩展应用程序并测试HA</a>
-  * <a href="MCW-Cloud-native-applications/Hands-on%20lab/%E4%BA%91%E5%8E%9F%E7%94%9F%E5%BA%94%E7%94%A8%20-%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC%E5%AE%9E%E9%AA%8C.md#exercise-5-working-with-services-and-routing-application-traffic">练习5：使用服务和路由应用程序流量</a>
-  
-- [白板设计](MCW-Cloud-native-applications/Whiteboard%20design%20session)
-  * [学生指南](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E5%AD%A6%E7%94%9F%E6%8C%87%E5%8D%97.md)
-  * [讲师指南](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E8%AE%B2%E5%B8%88%E6%8C%87%E5%8D%97.md)	
-  * [讲师胶片](MCW-Cloud-native-applications/Whiteboard%20design%20session/%E7%99%BD%E6%9D%BF%E8%AE%BE%E8%AE%A1%E8%AE%B2%E5%B8%88presentation.pptx)	
-  &emsp;
-  &emsp;
-  &emsp;
 
 
 
