@@ -220,7 +220,7 @@
                     "imageReference": {
                         "publisher": "Canonical",
                         "offer": "UbuntuServer",
-                        "sku": "16.04-LTS",
+                        "sku": "18_04-daily-lts-gen2",
                         "version": "latest"
                     }
                 },

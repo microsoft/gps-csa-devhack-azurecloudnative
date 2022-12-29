@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Suffix": {
-            "value": "teo"
+            "value": "<输入3位字母或数字组合>"
         },
         "VirtualMachineAdminUsernameLinux": {
             "value": "adminfabmedical"
